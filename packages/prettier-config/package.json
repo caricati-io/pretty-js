@@ -1,0 +1,17 @@
+{
+  "name": "@caricati/prettier-config",
+  "version": "1.0.0",
+  "main": "./prettier-config.js",
+  "license": "MIT",
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.7.1"
+  }
+}
